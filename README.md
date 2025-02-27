@@ -36,3 +36,11 @@ A Python script to convert Jupyter Notebook (`.ipynb`) files to Python (`.py`) s
 
 ```bash
 python ipynb_to_py.py <input.ipynb> <output.py> [flags]
+```
+
+Flags
+
+    input.ipynb: Path to the input Jupyter Notebook file.
+    output.py: Path to the output Python script.
+    --no-remove-unused: Disables the removal of unused variables.
+    --no-black: Disables black formatting.
